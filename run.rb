@@ -1,7 +1,6 @@
 require_relative 'rxt'
 
-rxt_path = File.join(File.dirname(__FILE__), 'weather.rxt')
-template = RXT::Template.from_file(rxt_path)
+template = RXT::Template.from_file('weather.rxt')
 puts template.render(
   time: Time.now,
   description: 'Bright & sunny.',
