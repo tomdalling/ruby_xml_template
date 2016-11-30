@@ -1,0 +1,11 @@
+xml version: '1.0', encoding: 'UTF-8'
+
+weather at: @time.iso8601 do
+  description @description
+  temperature "#{@temp} C"
+  fail 'oops'
+  wind do
+    velocity "#{@wind_vel} kts"
+    direction @wind_direction
+  end
+end
