@@ -1,7 +1,7 @@
 Ruby XML Template (RXT) DSL
 ---------------------------
 
-This repo contains code to accompany the article: [TODO HERE](http://www.rubypigeon.com/)
+This repo contains code to accompany the article: [How To Make A DSL, Hygienically](http://www.rubypigeon.com/posts/how-to-make-a-dsl-hygienically/)
 
 RXT is Ruby DSL for XML templates.
 It turns this:
